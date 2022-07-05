@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Link Checker
-        uses: lycheeverse/lychee-action@v1.0.6
+        uses: lycheeverse/lychee-action@v1.4.1
         with:
          args: README.md
       - name: Create Issue From File
